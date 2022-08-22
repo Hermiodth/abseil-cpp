@@ -49,7 +49,8 @@
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN
-using string_view = std::string_view;
+//using string_view = std::string_view;
+using string_view = std::basic_string_view<char>;
 ABSL_NAMESPACE_END
 }  // namespace absl
 
